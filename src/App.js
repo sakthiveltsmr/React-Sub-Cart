@@ -14,15 +14,6 @@ function App() {
           report={false}
         />
         <Subs
-          cardType="F R E E"
-          user={"Single User"}
-          storage="5GB Storage"
-          private={false}
-          phone={false}
-          domain={false}
-          report={false}
-        />
-        <Subs
           cardType="P R O"
           user="Unlimited Users"
           storage="150GB Storage"
