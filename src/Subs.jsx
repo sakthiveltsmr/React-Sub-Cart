@@ -10,12 +10,12 @@ export const Subs = (props) => {
   let storage = (
     <p>
       <i className="fas fa-check"></i>
-      <b>{props.storage}</b>
+      {props.storage}
     </p>
   );
   let upProjects = (
     <p>
-      <i className="fas fa-check"></i> Unlimitde Public projects
+      <i className="fas fa-check"></i>Unlimited public Projects
     </p>
   );
   let caccess = (
@@ -53,7 +53,7 @@ export const Subs = (props) => {
   if (domain)
     domain = (
       <p>
-        <i className="fas fa-checke"></i>
+        <i className="fas fa-check"></i>
         <b>{domain}</b>
       </p>
     );
@@ -94,9 +94,11 @@ export const Subs = (props) => {
           <li>{upProjects}</li>
           <li>{caccess}</li>
           <li>{privatePro}</li>
+          <li>{phone}</li>
           <li>{domain}</li>
           <li>{report}</li>
         </ul>
+        <button className="button">Check</button>
       </div>
     </>
   );

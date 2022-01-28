@@ -14,15 +14,6 @@ function App() {
           report={false}
         />
         <Subs
-          cardType="P R O"
-          user="Unlimited Users"
-          storage="150GB Storage"
-          private={true}
-          phone={true}
-          domain="unlimited"
-          report={true}
-        />
-        <Subs
           cardType="P L U S"
           user="5 Users"
           storage="50GB Storage"
@@ -31,9 +22,17 @@ function App() {
           domain={true}
           report={false}
         />
+        <Subs
+          cardType="P R O"
+          user="Unlimited Users"
+          storage="150GB Storage"
+          private={true}
+          phone={true}
+          domain="unlimited"
+          report={true}
+        />
       </div>
     </div>
   );
 }
-
 export default App;
